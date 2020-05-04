@@ -9,6 +9,6 @@ catalog: true
 tags:
     - diary
 ---
-# 前言#Good day
+# Good day
 
 Nice to meet you.
