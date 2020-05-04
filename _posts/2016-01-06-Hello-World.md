@@ -12,3 +12,5 @@ tags:
 # Good day
 
 Nice to meet you.
+
+![](https://coder6886.github.io/assets/img/2020-05-04/about-coder6886-gentle.jpg)
