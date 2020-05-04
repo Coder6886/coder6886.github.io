@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: Coder6886的博客 | BY Blog
+title: Coder6886 Blog
+SEOTitle: Coder6886的博客 | Coder6886 Blog
 header-img: img/post-bg-desk.jpg
 email: Coder6886@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, Coder6886"
+keyword: "Blog, Coder6886"
 url: "http://coder6886.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Coder6886/coder6886.github.io/" # you code repository
@@ -12,7 +12,7 @@ github_repo: "https://github.com/Coder6886/coder6886.github.io/" # you code repo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-coder6886-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
