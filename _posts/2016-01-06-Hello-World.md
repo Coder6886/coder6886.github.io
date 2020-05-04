@@ -13,6 +13,8 @@ tags:
 
 Nice to meet you.
 
-Test pics
+I like python 2.7.5😁.
 
 ![](https://coder6886.github.io/assets/img/2020-05-04/about-coder6886-gentle.jpg)
+
+This is a picture that I like.
