@@ -18,6 +18,7 @@ tags:
 
 ```c++
 #include<bits/stdc++.h>
+
 using namespace std;
 typedef double db;
 const db err = 1e-6;
