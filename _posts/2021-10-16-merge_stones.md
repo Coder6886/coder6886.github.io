@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      石子合并
+title:      AcWing282石子合并
 subtitle:   
 date:       2021-10-16
 author:     coder6886
