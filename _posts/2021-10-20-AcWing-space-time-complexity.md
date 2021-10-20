@@ -10,8 +10,9 @@ tags:
     [ AcWing ,  NOIP ]
 ---
 
+# 作者：yxc
 
-## 博客
-作者：yxc
-链接：https://www.acwing.com/blog/content/32/
-来源：AcWing
+# 链接：[博客链接](https://www.acwing.com/blog/content/32/)
+
+# 来源：AcWing
+
