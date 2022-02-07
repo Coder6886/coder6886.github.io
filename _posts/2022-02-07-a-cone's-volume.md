@@ -6,6 +6,7 @@ date:       2022-02-07
 author:     coder6886
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
+usemathjax: true
 tags:
     - 数学
 ---
