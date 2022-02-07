@@ -26,13 +26,13 @@ tags:
 
 **1.**首先，创造一个正方体，确定正方体中心点O，并将其连向周围8个顶点。如图一：
 
-![](img/a-cone's-volume-fig-1.jpg)
+![](/img/a-cone's-volume-fig-1.jpg)
 
 点O和在一个面上的四个顶点组成的锥体的体积是正方体体积的$\frac{1}{6}$。
 
 **2.**拉长这个正方体，将其变为一个长方体，如图二：
 
-![](img/a-cone's-volume-fig-2.jpg)
+![](/img/a-cone's-volume-fig-2.jpg)
 
 锥体OABCD的高从$a$变成$b$，扩大了$\frac{b}{a}$倍。
 
