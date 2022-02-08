@@ -36,9 +36,9 @@ tags:
 
 ![](/img/a-cone's-volume-fig-2.jpg)
 
-锥体OABCD的高从$a$变成$b$，扩大了$\frac{b}{a}$倍。
+锥体OABCD的高从$a$变成$b$，扩大了$\frac{b}{a}$倍，底不变，所以体积扩大了$\frac{b}{a}$倍。
 
-锥体OABEF的底从$a^2$变成了$ab$，也扩大了$\frac{b}{a}$倍。
+锥体OABEF的底从$a^2$变成了$ab$，扩大了$\frac{b}{a}$倍，高不变，所以体积也扩大了$\frac{b}{a}$倍。
 
 所以，$V_{锥体OABCD}=V_{锥体OABEF}$
 
