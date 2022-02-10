@@ -97,4 +97,4 @@ while True:
     possible_words = lstnumbers[best_word][statenumber]
     lstnumbers = [[[]for i in range(3**5)]for i in range(len(possible_words))]
 ```
-我并没有像3Blue1Brown那样“加大难度”，而是只采用了那2315个答案数据。这里边，我重写了wordle游戏，答案就是那个` answer="pause" `,大家可以自己试一试，有什么问题，欢迎提出。
+我并没有像3Blue1Brown那样“加大难度”，而是只采用了那2315个答案数据。这里边，我重写了wordle游戏，答案就是那个`answer="pause"`,大家可以自己试一试，有什么问题，欢迎提出。
