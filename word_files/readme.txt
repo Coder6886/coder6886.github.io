@@ -1,1 +1,1 @@
-This is my own text folder.Great.
+This is my own text folder.
