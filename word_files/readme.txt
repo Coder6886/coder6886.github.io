@@ -1,1 +1,1 @@
-This is my own text folder.gg
+This is my own text folder.
