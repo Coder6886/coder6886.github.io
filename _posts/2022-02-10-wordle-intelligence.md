@@ -10,8 +10,10 @@ usemathjax: true
 tags:
     [ 数学 , python ]
 ---
+## [wordle原版游戏地址](https://www.powerlanguage.co.uk/wordle/)
 
-前几天看了[这个微信链接](https://mp.weixin.qq.com/s/iddHGL4IaibPq_A59efuyg)，看到了大V[3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)的视频，觉得想写一个这样的代码。
+![](/img/2022-02-10-wordle-intelligence/2022-02-11-10-30-07.png)
+## 前几天看了[这个微信链接](https://mp.weixin.qq.com/s/iddHGL4IaibPq_A59efuyg)，看到了大V[3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)的视频，觉得想写一个这样的代码。
 ## 根据第一个版本做出的游戏机和解题机：
 ### 游戏机：
 ```python
@@ -101,7 +103,7 @@ def wordle(ans):
             last_result.append(2)
 while True:
     try:
-        print("Now, the current information entropy is "+str(nowentropy)+" bytes.")
+        print("Now, the current information entropy is "+str(nowentropy)+" bits.")
         entropymax = 0
         best_word = -1
         best_k = -1
@@ -123,7 +125,7 @@ while True:
                 entropymax = informationEntropy
                 best_word = i
                 best_k = k
-        print(possible_words[best_word])
+        print("The best word is:"+possible_words[best_word])
         nowin = input("last input  :")
         pattern = input("last pattern:")
         last_gets.append(nowin)
@@ -138,6 +140,7 @@ while True:
         sys.exit(0)
 ```
 allowed_words.txt:[allowed_words.txt](https://blog.iantzy.online/word_files/wordle-intelligence-allowed_words.txt)
+
 
 possible_words.txt:[possible_words.txt](https://blog.iantzy.online/word_files/wordle-intelligence-possible_words.txt)
 
