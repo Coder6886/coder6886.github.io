@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: iantzy_at_163.com
 description: "Every failure is leading towards success."
 keyword: "Blog, Coder6886"
-url: "http://coder6886.github.io"          # your host, for absolute URL
+url: "https://blog.iantzy.online"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Coder6886/coder6886.github.io/" # you code repository
 
@@ -35,7 +35,16 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-seo-tag
 
+whitelist:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
