@@ -35,11 +35,6 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-plugins:
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-seo-tag
-
 whitelist:
   - jekyll-gist
   - jekyll-paginate
@@ -48,10 +43,14 @@ whitelist:
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-#gems: [jekyll-paginate]
-gems:
+# gems: [jekyll-paginate]
+# Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-seo-tag
 
 
 
