@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      wordle 智能解
+title:      wordle智能解
 subtitle:   
 date:       2022-02-10
 author:     coder6886
