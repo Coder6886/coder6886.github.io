@@ -25,31 +25,38 @@ tags:
 假设$\angle BOF=\omega$。
 $\angle OFB=90^\circ$
 那么我们现在要用$\omega$表示出$OB$和$AB$
+
 $$
 
 OB=\frac{1}{\cos(\omega)}
 
 $$
+
 $$
 
 AB=k\times BC=k\times (CF+FB)=k\times (\sqrt{m^2-1}+\tan(\omega))
 
 $$
+
 那么，点$O$就是坐标轴原点，$OB$就是$x$。
+
 $$
 
 \tan(\omega)=\frac{\sin(\omega)}{\cos(\omega)}=\frac{\frac{\sqrt{x^2-1}}{x}}{\frac{1}{x}}=\sqrt{x^2-1}
 
 $$
+
 所以，
+
 $$
 
 f(x)=k(\sqrt{m^2-1}+\sqrt{x^2-1})
 
 $$
+
 这是一个双曲线
 没想到吧？
-如果看懂了的话，并能联想到另一种情况的话，可以直接[跳到文末](#end)
+如果看懂了的话，并能联想到另一种情况的话，可以直接跳到文末。
 没联想出来的话……
 ### 其次，我们再分析第二种情况：
 ![line-through-curve-2](/img/line-through-curve-2.png)
@@ -58,43 +65,53 @@ $$
 假设$\angle BOF=\omega$。
 $\angle OFB=90^\circ$
 那么我们现在要用$\omega$表示出$OB$和$AB$
+
 $$
 
 OB=\frac{1}{\cos(\omega)}
 
 $$
+
 $$
 
 AB=k\times BC=k\times (CF-FB)=k\times (\sqrt{m^2-1}-\tan(\omega))
 
 $$
+
 那么，点$O$就是坐标轴原点，$OB$就是$x$。
+
 $$
 
 \tan(\omega)=\frac{\sin(\omega)}{\cos(\omega)}=\frac{\frac{\sqrt{x^2-1}}{x}}{\frac{1}{x}}=\sqrt{x^2-1}
 
 $$
+
 所以，
+
 $$
 
 g(x)=k(\sqrt{m^2-1}-\sqrt{x^2-1})
 
 $$
+
 这还是一个双曲线
 # 文末
-<div id="end"></div>
 我们已经得到了两个式子，分别是：
+
 $$
 
 f(x)=k(\sqrt{m^2-1}+\sqrt{x^2-1})
 
 $$
+
 和
+
 $$
 
 g(x)=k(\sqrt{m^2-1}-\sqrt{x^2-1})
 
 $$
+
 将这两个式子画出来，范围是$0\le x \le m$，得到的就是：
 
 ![line-through-curve-3](/img/line-through-curve-3.png)
