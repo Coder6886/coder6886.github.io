@@ -18,7 +18,7 @@ tags:
 求白色板子上的线的公式
 # 解
 ## 我们要求的就是点$A$在$xOy$平面上的轨迹。
-### 首先，我们先分析第一种种情况：
+### 首先，我们先分析第一种情况：
 ![line-through-curve-1](/img/line-through-curve-1.png)
 
 **假设$OF$为1，$OC$为$m$，$\frac{AB}{BC}$也就是直线$CE$的斜率为$k$**
