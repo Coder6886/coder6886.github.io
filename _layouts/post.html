@@ -98,7 +98,7 @@ layout: default
 						repo: 'comment-on-iantzy',
 						owner: 'goodDayToU',
 						admin: ['goodDayToU'],
-						id: 'comment',
+						id: md5(location.pathname),
 					
 					});
 					gitalk.render('gitalk-container');
