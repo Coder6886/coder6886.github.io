@@ -214,6 +214,26 @@ layout: default
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
 </script>
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+		clientID: '2689a3fe645cefba826d',
+		clientSecret: 'b6489414016a878a1736b69c4b95ea1548670945',
+		repo: 'comment-on-iantzy',
+		owner: 'goodDayToU',
+		admin: ['goodDayToU'],
+		id: 'comment',
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
 <style>
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
