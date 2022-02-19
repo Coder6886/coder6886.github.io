@@ -93,11 +93,11 @@ layout: default
 					var gitalk = new Gitalk({
 
 					// gitalk的主要参数
-						clientID: '2689a3fe645cefba826d',
-						clientSecret: 'b6489414016a878a1736b69c4b95ea1548670945',
-						repo: 'comment-on-iantzy',
-						owner: 'goodDayToU',
-						admin: ['goodDayToU'],
+						clientID: '{{site.gitalk.clientID}}',
+						clientSecret: '{{site.gitalk.clientSecret}}',
+						repo: '{{site.gitalk.repo}}',
+						owner: '{{site.gitalk.owner}}',
+						admin: ['{{site.gitalk.admin}}'],
 						id: md5(location.pathname),
 					
 					});
