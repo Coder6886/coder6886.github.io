@@ -37,7 +37,9 @@ class information_block:
                res ^= i
         return res
     def correct(self):
-        self.info[self.mark()] ^= 1
+        place = self.mark()
+        if place > 0:
+            self.info[self.mark()] ^= 1
 blk = information_block()
 blk.write([1,0,1,0,0,1,0,1,0,0,1])
 blk.info[9] ^= 1
