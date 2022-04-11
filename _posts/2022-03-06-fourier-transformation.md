@@ -14,7 +14,9 @@ tags:
 代码：
 ```python
 ## https://kaizhao.net/blog/fourier 
+
 ## 相位就是arctan(-bn/an)
+
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
