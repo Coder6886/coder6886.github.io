@@ -53,7 +53,14 @@
     {% if page.usemathjax %}
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+		tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+		extensions: ["[Contrib]/a11y/accessibility-menu.js"],
+		menuSettings: {
+		  collapsible: true,
+		  autocollapse: true,
+		  explorer: true
+		}
         });
       </script>
       <script type="text/javascript" async src="{{ site.baseurl }}/js/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
