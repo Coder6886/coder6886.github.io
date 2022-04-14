@@ -65,8 +65,7 @@ markdown: kramdown
 kramdown:
   highlighter: rouge
   input: GFM                            # use Github Flavored Markdown !important
-  hard_wrap: true
-  gfm_quirks: ["no_auto_typographic"]
+
 
 
 # 评论系统
