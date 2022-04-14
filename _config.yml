@@ -41,7 +41,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-spaceship
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -53,7 +52,7 @@ plugins:
   - jekyll-gist
   - jekyll-coffeescript
   - jekyll-seo-tag
-  - jekyll-spaceship
+
 
 
 
