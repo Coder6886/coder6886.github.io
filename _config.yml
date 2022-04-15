@@ -64,11 +64,12 @@ markdown: kramdown
 kramdown:
   highlighter: rouge
   input: GFM                            # use Github Flavored Markdown !important
-  span:
-    line_numbers: false
-  block:
-    line_numbers: true
-    start_line: 1
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 
 # 评论系统
