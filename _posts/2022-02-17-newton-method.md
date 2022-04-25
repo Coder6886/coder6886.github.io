@@ -31,6 +31,7 @@ def Z(lstval):
 def LenBetTP(a,b):
     return ((a.real-b.real)**2+(a.imag-b.imag)**2)**0.5
 n_of_iter = 10#迭代次数
+
 s1 = 1+0j
 s2 = -0.5-0.866025j
 s3 = -0.5+0.866025j
@@ -44,11 +45,15 @@ for r in range(6*density):
         for h in range(n_of_iter):
             ans = Z(ans)
         l1 = LenBetTP(s1,ans)#r
+
         l2 = LenBetTP(s2,ans)#g
+
         l3 = LenBetTP(s3,ans)#b
+
         if min([l1,l2,l3]) == l1:
             plt.plot(m,k,'o',color = 'r')
             #print(1)
+            
         elif min([l1,l2,l3]) == l2:
             plt.plot(m,k,'o',color = 'g')
         else:
