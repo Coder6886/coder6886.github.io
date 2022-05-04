@@ -22,6 +22,9 @@ tags:
 
 ![second-aniversary-pwa2](/img/second-aniversary-pwa2.png)
 
-博客里的文章的风格也逐渐变化，从只贴代码变成了解释代码，又从解释代码变成了脱离代码，有了一些关于纯数学的文章。希望大家多多支持。
+# 3.注册了Gitalk
+![second-aniversary-gitalk](/img/second-aniversary-gitalk.png)
+
+博客里的文章的风格也逐渐变化，从只贴代码变成了解释代码，又从解释代码变成了脱离代码，有了一些关于纯数学的文章。希望大家多多支持。如有意见，请大胆提出。
 
 Good day.Nice to meet you.
