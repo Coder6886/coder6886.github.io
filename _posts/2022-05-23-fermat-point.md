@@ -22,10 +22,10 @@ tags:
 
 # 结论
 
-## 在$\triangle ABC$中最大的角小于$120\degree$时：
+## 在$\triangle ABC$中最大的角小于$120 \degree$时：
 
-应该使$\angle APB=\angle BPC=\angle CPA=120\degree$。
-## 在$\triangle ABC$中最大的角大于等于$120\degree$时：
+应该使$\angle APB=\angle BPC=\angle CPA=120 \degree$。
+## 在$\triangle ABC$中最大的角大于等于$120 \degree$时：
 
 假设那个角是$\angle A$，应该使点$P$与点$A$重合。
 
@@ -41,7 +41,7 @@ tags:
 
 $\because \angle PAB+\angle DAB=\angle DAE+\angle EAF$
 
-$\therefore \angle PAB+60\degree=\angle DAE+60\degree$
+$\therefore \angle PAB+60 \degree=\angle DAE+60 \degree$
 
 $\therefore \angle PAB=\angle DAE$
 
@@ -55,17 +55,17 @@ $\therefore PA+PB+PC=DE+EP+PC$
 
 由于点D和点C是定点，所以最好情况是$DE,EP,PC$共线。
 
-想让他们三条线共线，只需要$\angle DEA=\angle APC = 120\degree$。
+想让他们三条线共线，只需要$\angle DEA=\angle APC = 120 \degree$。
 
 $\because \triangle ABP \cong \triangle ADE$
 
-$\therefore \angle BPA=120\degree$
+$\therefore \angle BPA=120 \degree$
 
-$\therefore \angle BPA=\angle APC=\angle BPC=120\degree$。
+$\therefore \angle BPA=\angle APC=\angle BPC=120 \degree$。
 
-如果$\triangle ABC$中最大的角($\angle A$)小于$120\degree$，这样的在$\triangle ABC$内部的点$P$就存在。
+如果$\triangle ABC$中最大的角($\angle A$)小于$120 \degree$，这样的在$\triangle ABC$内部的点$P$就存在。
 
-**但是如果$\angle A$大于$120\degree$**：
+**但是如果$\angle A\geq120 \degree$**：
 
 ![fermat-point-fig2](/img/fermat-point-fig2.png)
 
