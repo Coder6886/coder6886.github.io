@@ -24,7 +24,7 @@ tags:
 
 $$
 
-z^w=\rho^ae^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+c\theta))
+z^w=\rho^ae^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+a\theta))
 
 $$
 
@@ -90,19 +90,19 @@ $$
 
 $$
 
-=e^{(aln\rho-b\theta)}(cos(bln\rho+a\theta)+isin(bln\rho+c\theta))（这一步的来由是e^{i\theta}=cos\theta+isin\theta）
+=e^{(aln\rho-b\theta)}(cos(bln\rho+a\theta)+isin(bln\rho+a\theta))（这一步的来由是e^{i\theta}=cos\theta+isin\theta）
 
 $$
 
 $$
 
-=e^{aln\rho}e^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+c\theta))
+=e^{aln\rho}e^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+a\theta))
 
 $$
 
 $$
 
-=\rho^ae^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+c\theta))（这一步其实运用了e^{ylnx}=x^y）
+=\rho^ae^{-b\theta}(cos(bln\rho+a\theta)+isin(bln\rho+a\theta))（这一步其实运用了e^{ylnx}=x^y）
 
 $$
 
@@ -113,6 +113,6 @@ $$
 
 让我们看看这个公式有没有实际用处……
 
-首先，$a,b,\rho$都是正数，所以$ln\rho$不会出来一些定义域的争论，$e^{-b\theta}$也是一个实数，$\rho^a$也是一个正数。
+首先，$a,b,\rho$都是正数，所以$ln\rho$不会出来一些定义域的问题，$e^{-b\theta}$也是一个实数，$\rho^a$也是一个正数。
 
 所以这个公式应该还是有用的。
