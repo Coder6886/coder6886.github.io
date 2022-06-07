@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      对于复数的幂运算
+title:      关于复数的幂运算
 subtitle:   
 date:       2022-06-07
 author:     coder6886
