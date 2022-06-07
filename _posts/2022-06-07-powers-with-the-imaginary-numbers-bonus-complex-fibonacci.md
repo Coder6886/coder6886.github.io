@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      关于复数的幂运算
+title:      关于复数的幂运算（还有复数斐波那契数列）
 subtitle:   
 date:       2022-06-07
 author:     coder6886
@@ -106,7 +106,7 @@ $$
 
 $$
 
-## 3.总结
+# 3.总结
 这就证明完了！
 
 其实这个公式好像不太有人知道……
@@ -116,3 +116,68 @@ $$
 首先，$a,b,\rho$都是正数，所以$ln\rho$不会出来一些定义域的问题，$e^{-b\theta}$也是一个实数，$\rho^a$也是一个正数。
 
 所以这个公式应该还是有用的。
+
+# 4.示例（斐波那契数列）
+这是一个斐波那契数列的示例。
+
+大家都知道1，1，2，3，5，8……是斐波那契数列，生成斐波那契数列的函数是：
+
+$$
+
+F(n)=\frac{\phi^n-(\frac{1}{-\phi})^n}{\sqrt5}
+
+$$
+
+其中$\phi$是黄金分割比
+
+这个公式的具体证明请看[这里](https://www.youtube.com/watch?v=e7SnRPubg-g)（这里还有关于另一个数列的故事……）
+
+那如果$F(n)$中$n$不是整数，而是一个任意的实数，那会发生什么？
+
+没错！$F(n)$的输出就是一个复数！
+
+但是这个复数的实部和虚部都是什么？
+
+首先，目光聚焦到带给我们虚部的$(\frac{1}{-\phi})^n$。
+
+我们先要化简这个式子。
+
+对于$\rho,\theta,a$和$b$，这些数在这个情况下的值是：
+
+$$
+
+\rho=\frac{1}{\phi},\theta=\pi,a=n,b=0（为什么呢？因为z=-\frac{1}{\phi}=\frac{1}{\phi}e^{i\pi},w=n=n+0i）
+
+$$
+
+其实使用这个公式有一些“杀鸡用牛刀”的意思，因为这个情况下底数和指数都不是复数。
+
+根据上面这些值，可以计算出：
+
+$$
+
+(\frac{1}{-\phi})^n=(\frac{1}{\phi})^n(cos(\pi n)+isin(\pi n))（这一步就是带入化简）
+
+$$
+
+所以
+
+$$
+
+F(n)=\frac{\phi^n-(\frac{1}{-\phi})^n}{\sqrt5}=\frac{\phi^n-(\frac{1}{\phi})^n(cos(\pi n)+isin(\pi n))}{\sqrt5}
+
+$$
+
+化简后可得：
+
+$$
+
+F(n)=\frac{\phi^n-(\frac{1}{\phi})^ncos(\pi n)}{\sqrt5}-i\frac{(\frac{1}{\phi})^nsin(\pi n)}{\sqrt5}
+
+$$
+
+这就是（复）斐波那契数列。
+
+[这](https://github.com/Coder6886/coder6886.github.io/blob/master/word_files/complex-fibonacci.ggb)是我做的一个（复）斐波那契数列的动画的下载链接。
+
+它使用的就是这个方程。
