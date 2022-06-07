@@ -128,7 +128,7 @@ F(n)=\frac{\phi^n-(\frac{1}{-\phi})^n}{\sqrt5}
 
 $$
 
-其中$\phi$是黄金分割比
+其中$\phi$是黄金分割比($\frac{1+\sqrt5}{2}\approx1.618$)
 
 这个公式的具体证明请看[这里](https://www.youtube.com/watch?v=e7SnRPubg-g)（这里还有关于另一个数列的故事……）
 
