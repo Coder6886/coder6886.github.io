@@ -6,7 +6,7 @@ header-img: "img/post-bg-universe.jpg"
 ---
 
 <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期/Tags.." style="width:380px;"/>
+<input type="text" id="search-input" placeholder="众里寻他千百度，腾然回首，那人却在，灯火阑珊处。" style="width:500px;"/>
 <ul id="results-container"></ul>
 
 <!-- script pointing to jekyll-search.js -->
@@ -20,6 +20,6 @@ SimpleJekyllSearch({
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     noResultsText: '没有搜索到文章',
     limit: 20,
-    fuzzy: false
+    fuzzy: true
   })
 </script>
