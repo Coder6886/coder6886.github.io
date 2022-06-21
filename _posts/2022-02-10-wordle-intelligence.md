@@ -139,9 +139,9 @@ while True:
         input()
         sys.exit(0)
 ```
-allowed_words.txt:[allowed_words.txt](https://blog.iantzy.online/word_files/wordle-intelligence-allowed_words.txt)
+allowed_words.txt:[allowed_words.txt](/word_files/wordle-intelligence-allowed_words.txt)
 
 
-possible_words.txt:[possible_words.txt](https://blog.iantzy.online/word_files/wordle-intelligence-possible_words.txt)
+possible_words.txt:[possible_words.txt](/word_files/wordle-intelligence-possible_words.txt)
 
 我并没有像3Blue1Brown那样“加大难度”，而是只采用了那2315个答案数据。这里边，我重写了wordle游戏，答案是随机的，大家可以自己试一试，有什么问题，欢迎提出。
