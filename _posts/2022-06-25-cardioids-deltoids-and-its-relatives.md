@@ -43,11 +43,11 @@ tags:
 
 在大圆内侧无滑动滚动了一个角度$\omega$后，$点C$到了$点C'$，$点B$到了$点B'$。
 
-由于$点B$是定点，而且是无滑动滚动，所以$\|\mathop{BE'}\limits^{\frown}\|$
+由于$点B$是定点，而且是无滑动滚动，所以$\|\mathop{B'E}\limits^{\frown}\|=\|\mathop{BE}\limits^{\frown}\|$
 
 ![cardioids-deltoids-and-its-relatives-fig3](/img/cardioids-deltoids-and-its-relatives-fig3.png)
 
-由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以|$弧{BE}$|$=\omega r$，所以|$弧{B'E}$|$=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
+由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以$\|\mathop{BE}\limits^{\frown}\|=\omega r$，所以$\|\mathop{B'E}\limits^{\frown}\|=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
 
 可以以$点C'$为原点建立另外一个复平面，在这个复平面上计算$点B'$的坐标再转换回以$点A$为原点的坐标。
 
@@ -67,11 +67,11 @@ tags:
 
 在大圆外侧无滑动滚动了一个角度$\omega$后，$点C$到了$点C'$，$点B$到了$点B'$。
 
-由于$点B$是定点，而且是无滑动滚动，所以"&#7C"$弧{B'E}$|$=$|$弧{BE}$|
+由于$点B$是定点，而且是无滑动滚动，所以$\|\mathop{B'E}\limits^{\frown}\|=\|\mathop{BE}\limits^{\frown}\|$
 
 ![cardioids-deltoids-and-its-relatives-fig4](/img/cardioids-deltoids-and-its-relatives-fig4.png)
 
-由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以 $ \|弧{BE}\|=\omega r$，所以\|$弧{B'E}$\|$=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
+由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以$\|\mathop{BE}\limits^{\frown}\|=\omega r$，所以$\|\mathop{B'E}\limits^{\frown}\|=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
 
 可以以$点C'$为原点建立另外一个复平面，在这个复平面上计算$点B'$的坐标再转换回以$点A$为原点的坐标。
 
