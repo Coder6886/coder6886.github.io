@@ -80,3 +80,45 @@ tags:
 然后将$点B'$在**以$点C'$为原点的坐标**转换回**以$点A$为原点的坐标**。任何在**以$点C'$为原点的坐标系上**的点转换回**以$点A$为原点的坐标**只需要将原来的坐标加上**以$点A$为原点的$点C'$的坐标**。这些话有点拗口，大家仔细想一想。
 
 所以可以将$点B'$在**以$点C'$为原点的坐标**（$e^{i(\pi+(r+1)\omega)}$）加上**以$点A$为原点的$点C'$的坐标**（$(r+1)e^{i\omega}$），所以$点B'$在**以$点A$为原点的坐标系上的坐标**就是$e^{i(\pi+(r+1)\omega)}+(r+1)e^{i\omega}$。
+
+## 2.3.动画
+
+公式推导完了，还不放松一下？
+
+我自己制作的动画在[这里](https://github.com/Coder6886/coder6886.github.io/blob/master/word_files/cardioids-deltoids-and-its-relatives.ggb)下载。
+
+动画里的w就是$\omega$(omega)。
+
+# 3.在动画中的美丽
+
+当$r$是正整数时，图案就是这样的：
+
+![cardioids-deltoids-and-its-relatives-fig5](/img/cardioids-deltoids-and-its-relatives-fig5.png)
+
+可以看出，当小圆在大圆外面滚动时，一共有$r$个凸包；当小圆在大圆里面 滚动时，一共有$r$个凹陷。
+
+当$r$是最简分数时（$\frac{p}{q}$），图案就是这样的：
+
+![cardioids-deltoids-and-its-relatives-fig6](/img/cardioids-deltoids-and-its-relatives-fig6.png)
+
+这里我的例子是$p=5,q=3$。
+
+看一看$5$在这个图里的哪里体现。
+
+中间是一个$5$角星。外面也是$5$重对称。
+
+那$3$在哪里呢？
+
+看里面，如果从五角星的一个角开始沿着蓝色的线再到一个角，就会跨过一个角。再算上起点和终点，就是$3$个角了！
+
+![cardioids-deltoids-and-its-relatives-fig7](/img/cardioids-deltoids-and-its-relatives-fig7.png)
+
+通过这个公式生成的心形线（$r=1$，小圆在外侧滚动，红线）:
+
+![cardioids-deltoids-and-its-relatives-fig8](/img/cardioids-deltoids-and-its-relatives-fig8.png)
+
+三尖瓣线（$r=3$，小圆在内侧滚动，蓝线）：
+
+![cardioids-deltoids-and-its-relatives-fig9](/img/cardioids-deltoids-and-its-relatives-fig9.png)
+
+好了，今天就先到这里了。
