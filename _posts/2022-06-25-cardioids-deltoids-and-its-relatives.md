@@ -67,7 +67,7 @@ tags:
 
 在大圆外侧无滑动滚动了一个角度$\omega$后，$点C$到了$点C'$，$点B$到了$点B'$。
 
-由于$点B$是定点，而且是无滑动滚动，所以|$弧{B'E}$|$=$|$弧{BE}$|
+由于$点B$是定点，而且是无滑动滚动，所以"&#7C"$弧{B'E}$|$=$|$弧{BE}$|
 
 ![cardioids-deltoids-and-its-relatives-fig4](/img/cardioids-deltoids-and-its-relatives-fig4.png)
 
