@@ -47,7 +47,7 @@ tags:
 
 ![cardioids-deltoids-and-its-relatives-fig3](/img/cardioids-deltoids-and-its-relatives-fig3.png)
 
-由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以$|弧{BE}|=\omega r$，所以$|弧{B'E}|=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
+由于$\angle EAB=\omega（弧度）$，并且$AB=r$，所以$&#124弧{BE}&#124=\omega r$，所以$|弧{B'E}|=\omega r$，又由于$C'B'=1$，所以$\angle EC'B'=\frac{\omega r}{1}=\omega r$。
 
 可以以$点C'$为原点建立另外一个复平面，在这个复平面上计算$点B'$的坐标再转换回以$点A$为原点的坐标。
 
