@@ -81,7 +81,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: a1b87fe31e65dba87492                            #生成的clientID
   clientSecret: ef0b7fe766445b3bffc2c58116f8c50a9ea78d6b   #生成的clientSecret
-  repo: iantzycomment    #仓库名称
+  repo: comment-coder6886    #仓库名称
   owner: goodDayToU    #github用户名
   admin: goodDayToU
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
