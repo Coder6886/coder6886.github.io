@@ -79,8 +79,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 1adcaf3b463a0444c3f9                            #生成的clientID
-  clientSecret: 6c01aa5573fa072f231510b7a0467b03ddc81631   #生成的clientSecret
+  clientID: a1b87fe31e65dba87492                            #生成的clientID
+  clientSecret: ef0b7fe766445b3bffc2c58116f8c50a9ea78d6b   #生成的clientSecret
   repo: iantzycomment    #仓库名称
   owner: goodDayToU    #github用户名
   admin: goodDayToU
