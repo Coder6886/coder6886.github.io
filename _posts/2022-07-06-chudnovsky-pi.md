@@ -70,7 +70,7 @@ S(m,n)=\sum_{k=m}^{n}(\frac{a_k}{b_k}\prod_{d=m}^{k}\frac{p_d}{q_d})
 
 $$
 
-$a_k,b_k,p_k,q_k$是什么先不用管。
+$a_k,b_k,p_d,q_d$是什么先不用管。
 
 再定义几个函数：
 
