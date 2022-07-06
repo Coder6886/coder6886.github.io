@@ -8,5 +8,5 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 usemathjax: true
 tags:
-    - 数学 - python
+   [ 数学 , python ]
 ---
