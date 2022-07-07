@@ -280,7 +280,8 @@ def pi_chudnovsky_bs(digits):
             Pln, Qln, Tln = bs(l, n)
             Pmn = Pml * Pln
             Qmn = Qml * Qln
-            Tmn = Qln * Tml + Pml * Tln
+            Tmn = Qln * Tml + Pml * Tln #这是由于B(m,l)和B(l,n)的值恒为1
+            
         return Pmn, Qmn, Tmn
     DIGITS_PER_TERM = math.log10(C3_OVER_24/6/2/6)
     N = int(digits/DIGITS_PER_TERM + 1)
