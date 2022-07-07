@@ -14,7 +14,7 @@ tags:
 
 今天，我就来用楚德诺夫斯基算法计算$\pi$。
 
-这篇文章还有另一个小弟弟：[割圆术](coder6886.github.io/2021/11/27/liuhui-geyuanshu/)
+这篇文章还有另一个小弟弟：[割圆术](https://coder6886.github.io/2021/11/27/liuhui-geyuanshu/)
 
 先上公式：
 
