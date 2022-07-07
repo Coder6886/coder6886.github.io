@@ -134,7 +134,7 @@ $$
 
 $$
 
-T(m,n) = B(l,n)Q(l,n)T(m,l)+B(m,l)Q(m,l)T(l,n)\quad(m\leq l\leq n)
+T(m,n) = B(l,n)Q(l,n)T(m,l)+B(m,l)P(m,l)T(l,n)\quad(m\leq l\leq n)
 
 $$
 
@@ -142,13 +142,13 @@ $$
 
 $$
 
-B(l,n)Q(l,n)T(m,l)+B(m,l)Q(m,l)T(l,n)
+B(l,n)Q(l,n)T(m,l)+B(m,l)P(m,l)T(l,n)
 
 $$
 
 $$
 
-=B(l,n)Q(l,n)B(m,l)Q(m,l)S(m,l)+B(m,l)Q(m,l)B(l,n)Q(l,n)S(l,n)
+=B(l,n)Q(l,n)B(m,l)Q(m,l)S(m,l)+B(m,l)P(m,l)B(l,n)Q(l,n)S(l,n)
 
 $$
 
@@ -160,13 +160,13 @@ $$
 
 $$
 
-=B(m,n)(Q(m,n)S(m,l)+P(m,l)Q(l,n)S(l,n))
+=B(m,n)\biggl(Q(m,n)S(m,l)+P(m,l)Q(l,n)S(l,n)\biggr)
 
 $$
 
 $$
 
-=B(m,n)(Q(m,n)S(m,l)+\frac{Q(m,n)}{Q(m,l)}P(m,l)S(l,n))
+=B(m,n)\biggl(Q(m,n)S(m,l)+\frac{Q(m,n)}{Q(m,l)}P(m,l)S(l,n)\biggr)
 
 $$
 
