@@ -10,7 +10,7 @@ usemathjax: true
 tags:
     [ 数学 , python ]
 ---
-今天我看了大V[3Blue1Brown](https://www.youtube.com/c/3blue1brown)的视频[Hammington codes part 1](https://www.youtube.com/watch?v=X8jsijhllIA&list=PLZHQObOWTQDN52m7Y21ePrTbvXkPaWVSg&index=19)和[Hammington codes part 2](https://www.youtube.com/watch?v=b3NxrZOu_CE&list=PLZHQObOWTQDN52m7Y21ePrTbvXkPaWVSg&index=20)， 看了思路就想写代码：
+今天我看了hammington code， 看了思路就想写代码：
 ```python
 class information_block:
     def __init__(self):

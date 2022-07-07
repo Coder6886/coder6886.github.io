@@ -13,7 +13,7 @@ tags:
 ## [wordle原版游戏地址](https://www.powerlanguage.co.uk/wordle/)
 
 ![](/img/2022-02-10-wordle-intelligence/2022-02-11-10-30-07.png)
-## 前几天看了[这个微信链接](https://mp.weixin.qq.com/s/iddHGL4IaibPq_A59efuyg)，看到了大V[3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)的视频，觉得想写一个这样的代码。
+## 前几天看了这个游戏，觉得想写一个这样的代码。
 ## 根据第一个版本做出的游戏机和解题机：
 ### 游戏机：
 ```python
@@ -144,4 +144,4 @@ allowed_words.txt:[allowed_words.txt](/word_files/wordle-intelligence-allowed_wo
 
 possible_words.txt:[possible_words.txt](/word_files/wordle-intelligence-possible_words.txt)
 
-我并没有像3Blue1Brown那样“加大难度”，而是只采用了那2315个答案数据。这里边，我重写了wordle游戏，答案是随机的，大家可以自己试一试，有什么问题，欢迎提出。
+我并没有“加大难度”，而是只采用了那2315个答案数据。这里边，我重写了wordle游戏，答案是随机的，大家可以自己试一试，有什么问题，欢迎提出。

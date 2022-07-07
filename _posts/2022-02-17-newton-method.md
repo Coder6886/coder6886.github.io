@@ -10,7 +10,7 @@ usemathjax: true
 tags:
     [ 数学 , python ]
 ---
-今天看了大V[3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)的[Newton's Fractal(which Newton knew nothing about)](https://www.youtube.com/watch?v=-RdOwhmqP5s)，里面讲了一个很有意思的一个牛顿分形：
+今天看了一个很有意思的一个牛顿分形：
 
 ![newton-method-1.png](/img/newton-method-1.png)
 我看到后，就想编一个代码，实现这个牛顿分形，代码如下（用的matplotlib的点阵）：
@@ -77,8 +77,7 @@ plt.show()
 
 这个虽然粗糙了一点，但和最上面的图长得也挺像的。
 
-主体思路和3B1B一样，先定义$P$和$P'$两个函数，再定义迭代函数
+主体思路，先定义$P$和$P'$两个函数，再定义迭代函数
 
 然后将整个平面分为很多个点，将每一个点的迭代值都算出来，并画出相应的颜色。
 
-具体原理请看他的那期视频。
