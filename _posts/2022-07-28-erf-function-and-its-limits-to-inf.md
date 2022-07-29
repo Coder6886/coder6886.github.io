@@ -36,7 +36,7 @@ $erf$函数的定义前面为什么要带一个$\frac{2}{\sqrt{\pi}}$呢？因�
 
 $$
 
-\lim_{x\rightarrow\infin}erf(x)=1（下将简写为erf(\infin)=1）
+\lim_{x\rightarrow\infty}erf(x)=1（下将简写为erf(\infty)=1）
 
 $$
 
@@ -50,7 +50,7 @@ $$
 
 那人们凭什么知道这个是真的呢？
 
-我们今天就来证明它是真的，也就顺带证明了$erf(\infin)=1$。
+我们今天就来证明它是真的，也就顺带证明了$erf(\infty)=1$。
 
 中间也许你会不明白为什么要做某一部，但是最后我会汇总的。不要急。
 
@@ -60,7 +60,7 @@ $$
 
 $$
 
-\frac{erf(\infin)}{\frac{2}{\sqrt{\pi}}}=\int_0^{\infin}e^{-t^2}dt
+\frac{erf(\infty)}{\frac{2}{\sqrt{\pi}}}=\int_0^{\infty}e^{-t^2}dt
 
 $$
 
@@ -68,7 +68,7 @@ $$
 
 $$
 
-\int_0^{\infin}e^{-t^2}dt=Q
+\int_0^{\infty}e^{-t^2}dt=Q
 
 $$
 
@@ -120,7 +120,7 @@ $$
 
 $$
 
-\int_0^\infin 2\pi xe^{-x^2}dx=-\pi e^{-x^2}\bigg\vert_0^\infin=0-(-\pi)=\pi
+\int_0^\infty 2\pi xe^{-x^2}dx=-\pi e^{-x^2}\bigg\vert_0^\infty=0-(-\pi)=\pi
 
 $$
 
@@ -128,7 +128,7 @@ $$
 
 $$
 
-\int_0^\infin 2\pi xe^{-x^2}dx=\pi
+\int_0^\infty 2\pi xe^{-x^2}dx=\pi
 
 $$
 
@@ -149,7 +149,7 @@ $$
 
 $$
 
-\int_{-\infin}^\infin e^{-b^2}e^{-x^2}dx=2\int_0^\infin e^{-b^2}e^{-x^2}dx=2e^{-b^2}\int_0^\infin e^{-x^2}dx=2e^{-b^2}Q
+\int_{-\infty}^\infty e^{-b^2}e^{-x^2}dx=2\int_0^\infty e^{-b^2}e^{-x^2}dx=2e^{-b^2}\int_0^\infty e^{-x^2}dx=2e^{-b^2}Q
 
 $$
 
@@ -159,13 +159,13 @@ $$
 
 $$
 
-\int_{-\infin}^\infin2e^{-b^2}Qdb=\int_{-\infin}^\infin2e^{-z^2}Qdz=2Q\int_{-\infin}^\infin e^{-z^2}dz
+\int_{-\infty}^\infty2e^{-b^2}Qdb=\int_{-\infty}^\infty2e^{-z^2}Qdz=2Q\int_{-\infty}^\infty e^{-z^2}dz
 
 $$
 
 $$
 
-=2*2*Q*\int_0^\infin e^{-z^2}dz=2*2*Q*Q=4Q^2
+=2*2*Q*\int_0^\infty e^{-z^2}dz=2*2*Q*Q=4Q^2
 
 $$
 
@@ -175,7 +175,7 @@ $$
 
 $$
 
-erf(\infin)=\frac{\sqrt{\pi}}{2}\frac{2}{\sqrt{\pi}}=1
+erf(\infty)=\frac{\sqrt{\pi}}{2}\frac{2}{\sqrt{\pi}}=1
 
 $$
 
