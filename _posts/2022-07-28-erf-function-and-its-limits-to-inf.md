@@ -44,7 +44,7 @@ $$
 
 $$
 
-\int_0^xe^{-t^2}dt=\frac{\sqrt{\pi}}{2}
+\int_0^\infty e^{-t^2}dt=\frac{\sqrt{\pi}}{2}
 
 $$
 
