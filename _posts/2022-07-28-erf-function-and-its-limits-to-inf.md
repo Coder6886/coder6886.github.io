@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      erf函数再无穷大处的值
+title:      erf函数在无穷大处的值
 subtitle:   还有生活中的一个小鼓包
 date:       2022-07-28
 author:     coder6886
