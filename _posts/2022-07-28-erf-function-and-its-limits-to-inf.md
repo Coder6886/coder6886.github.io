@@ -72,7 +72,7 @@ $$
 
 $$
 
-# 第二部：求一个体积
+# 第二步：求一个体积
 
 ![erf-function-and-its-limits-to-inf-fig1](/img/erf-function-and-its-limits-to-inf-fig1.png)
 
@@ -132,7 +132,7 @@ $$
 
 $$
 
-# 第三部分：换种方法求相同的面积
+# 第三步：换种方法求相同的面积
 
 ![erf-function-and-its-limits-to-inf-fig4](/img/erf-function-and-its-limits-to-inf-fig4.png)
 
@@ -169,7 +169,7 @@ $$
 
 $$
 
-# 第四部分：汇总
+# 第四步：汇总
 
 我们知道小鼓包下面的面积是$4Q^2$，也是$\pi$，所以$4Q^2=\pi$，可以推得$Q=\frac{\sqrt{\pi}}{2}$。
 
