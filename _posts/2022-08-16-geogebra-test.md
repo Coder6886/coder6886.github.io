@@ -11,4 +11,4 @@ tags:
     - 数学
 ---
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/y9xxvqpj/width/800/height/600/border/888888/sri/true/ld/true/sdz/true" width="800" height="600"  style="border: 1px solid #e4e4e4;border-radius: 0px;" frameborder="0"></iframe>
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/y9xxvqpj/width/800/height/600/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false" width="800" height="600"  style="border: 1px solid #e4e4e4;border-radius: 0px;" frameborder="0"></iframe>
