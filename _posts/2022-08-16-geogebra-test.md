@@ -10,15 +10,4 @@ usemathjax: true
 tags:
     - 数学
 ---
-<meta name=viewport content="width=device-width,initial-scale=1">  
-<meta charset="utf-8"/>
-
-<div id="ggb-element">
-    <script src="https://www.geogebra.org/apps/deployggb.js">
-        var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": false, "showMenuBar": false };
-        var applet = new GGBApplet(params, true);
-        window.addEventListener("load", function() { 
-            applet.inject('ggb-element');
-        });
-    </script>
-</div> 
+<iframe src="https://www.geogebra.org/geometry/y9xxvqpj?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
