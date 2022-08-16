@@ -10,4 +10,6 @@ usemathjax: true
 tags:
     - 数学
 ---
+<meta name=viewport content="width=device-width,initial-scale=1">  
+<meta charset="utf-8"/>
 <iframe src="https://www.geogebra.org/geometry/y9xxvqpj?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
