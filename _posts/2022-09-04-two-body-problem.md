@@ -101,10 +101,10 @@ $$
 
 $$
 
-我们突然发现虚拟天体对橙色天体的作用力**等于**红色天体对橙色天体的作用力，又由于力的方向一致，所以这可以看做橙色天体围绕质量为$\colorbox{LightBlue}{M} =\frac{\colorbox{red}{M}}{(1+\frac{\colorbox{orange}{m}}{\colorbox{red}{M}})^2}$的一个虚拟天体做[单体运动](2022-03-15-orbit.md)。
+我们突然发现虚拟天体对橙色天体的作用力**等于**红色天体对橙色天体的作用力，又由于力的方向一致，所以这可以看做橙色天体围绕质量为$\colorbox{LightBlue}{M} =\frac{\colorbox{red}{M}}{(1+\frac{\colorbox{orange}{m}}{\colorbox{red}{M}})^2}$的一个虚拟天体做[单体运动](https://blog6886.iantzy.online/2022/03/15/orbit/)。
 
-同样的，红色天体也可以看做绕着另一个（也在坐标原点上）的虚拟天体做[单体运动](2022-03-15-orbit.md)。这个过程我就不推导了，但红色天体对应的那个虚拟天体的质量是$\colorbox{LightGreen}{M} =\frac{\colorbox{orange}{m}}{(1+\frac{\colorbox{red}{M}}{\colorbox{orange}{m}})^2}$
+同样的，红色天体也可以看做绕着另一个（也在坐标原点上）的虚拟天体做[单体运动](https://blog6886.iantzy.online/2022/03/15/orbit/)。这个过程我就不推导了，但红色天体对应的那个虚拟天体的质量是$\colorbox{LightGreen}{M} =\frac{\colorbox{orange}{m}}{(1+\frac{\colorbox{red}{M}}{\colorbox{orange}{m}})^2}$
 
 这样，一个二体问题就转化为了两个单体运动。
 
-关于单体运动的我的博客在[这里](2022-03-15-orbit.md)
+关于单体运动的我的博客在[这里](https://blog6886.iantzy.online/2022/03/15/orbit/)。
