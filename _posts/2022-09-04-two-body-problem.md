@@ -1,6 +1,6 @@
 ---
-layout:     二体问题的解
-title:      
+layout:     
+title:      二体问题的解
 subtitle:   
 date:       2022-09-04
 author:     coder6886
