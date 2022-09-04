@@ -1,5 +1,5 @@
 ---
-layout:     
+layout:     post
 title:      二体问题的解
 subtitle:   
 date:       2022-09-04
