@@ -7,7 +7,7 @@ author:     coder6886
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    [ AcWing , 洛谷 ,  NOIP ]
+    [ 洛谷 , c++ , NOIP ]
 ---
 
 ## 题目
