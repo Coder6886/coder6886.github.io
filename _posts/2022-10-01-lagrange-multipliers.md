@@ -33,7 +33,7 @@ $$
 
 假设$f$在$g=c$这个“平面”上的极值点为$P$。
 
-设$\mathbf{r}(t)=\begin{pmatrix} x_1(t) \\ x_2(t) \\...\\ x_n(t) \end{pmatrix}$为$g=c$这个“曲面”上任意一条“曲线”，且$r(0)=P$。再让$h(t)=f(x_1(t),x_2(t),...,x_n(t))$。
+设$\mathbf{r}(t)=\begin{pmatrix} x_1(t) \\\ x_2(t) \\\...\\\ x_n(t) \end{pmatrix}$为$g=c$这个“曲面”上任意一条“曲线”，且$r(0)=P$。再让$h(t)=f(x_1(t),x_2(t),...,x_n(t))$。
 
 可以知道
 
@@ -90,7 +90,7 @@ $$
 
 $$
 
-\begin{cases} 0=\lambda (2a+b)\\ 1=\lambda (2b+a)\\ a^2+b^2+ab=27\end{cases} 
+\begin{cases} 0=\lambda (2a+b)\\\ 1=\lambda (2b+a)\\\ a^2+b^2+ab=27\end{cases} 
 
 $$
 
