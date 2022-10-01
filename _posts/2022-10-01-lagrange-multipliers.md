@@ -62,6 +62,7 @@ $$
 \nabla f\big|_{P}\cdot \mathbf{r'}(0)=0
 
 $$
+
 ,也就意味着
 
 $$
