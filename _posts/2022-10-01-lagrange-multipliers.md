@@ -55,9 +55,50 @@ $$
 
 第一个等号是直接将0带入上一个式子，第二个等号是因为点P是极值点，所以$h'(0)$是0。
 
-既然$\nabla f\|_{P}\cdot \mathbf{r'}(0)=0$,也就意味着$\nabla f\|_{P}$和$\mathbf{r'}(0)$互相垂直，也就意味着$\nabla f\|_{P}$与任意一条在$g=c$上的“曲线”垂直。这也就意味着$\nabla f\|_{P}$与$g=c$这个“曲面”垂直。而我们又知道$\nabla g\|_{P}$也与$g=c$垂直，所以我们知道$\nabla f\|_{P}$和$\nabla g\|_{P}$平行。
+既然
 
-根据$\nabla f\|_{P}$和$\nabla g\|_{P}$平行，可以列出方程求解点P：
+$$
+
+\nabla f\big|_{P}\cdot \mathbf{r'}(0)=0
+
+$$
+,也就意味着
+
+$$
+
+\nabla f\big|_{P} \perp \mathbf{r'}(0)
+
+$$ 
+
+$$
+
+\nabla f\big|_{P}\perp (g=c上的任意一条“曲线”)
+
+$$
+
+$$
+
+\nabla f\big|_{P}\perp(g=c这个“曲面”)
+
+$$
+
+而我们又知道
+
+$$
+
+\nabla g\big|_{P}\perp (g=c这个“曲面”)
+
+$$
+
+，所以我们知道
+
+$$
+
+\nabla f\big|_{P}\parallel\nabla g\big|_{P}
+
+$$
+
+根据以上条件，可以列出方程组
 
 $$
 
