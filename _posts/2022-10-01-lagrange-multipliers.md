@@ -55,9 +55,9 @@ $$
 
 第一个等号是直接将0带入上一个式子，第二个等号是因为点P是极值点，所以$h'(0)$是0。
 
-既然$\nabla f\big\|_{P}\cdot \mathbf{r'}(0)=0$,也就意味着$\nabla f\big\|_{P}$和$\mathbf{r'}(0)$互相垂直，也就意味着$\nabla f\big\|_{P}$与任意一条在$g=c$上的“曲线”垂直。这也就意味着$\nabla f\big\|_{P}$与$g=c$这个“曲面”垂直。而我们又知道$\nabla g\big\|_{P}$也与$g=c$垂直，所以我们知道$\nabla f\big\|_{P}$和$\nabla g\big\|_{P}$平行。
+既然$\nabla f\|_{P}\cdot \mathbf{r'}(0)=0$,也就意味着$\nabla f\|_{P}$和$\mathbf{r'}(0)$互相垂直，也就意味着$\nabla f\|_{P}$与任意一条在$g=c$上的“曲线”垂直。这也就意味着$\nabla f\|_{P}$与$g=c$这个“曲面”垂直。而我们又知道$\nabla g\|_{P}$也与$g=c$垂直，所以我们知道$\nabla f\|_{P}$和$\nabla g\|_{P}$平行。
 
-根据$\nabla f\big\|_{P}$和$\nabla g\big\|_{P}$平行，可以列出方程求解点P：
+根据$\nabla f\|_{P}$和$\nabla g\|_{P}$平行，可以列出方程求解点P：
 
 $$
 
