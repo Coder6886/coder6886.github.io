@@ -4,7 +4,7 @@ title:      拉格朗日乘数法
 subtitle:   
 date:       2022-10-01
 author:     coder6886
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-island.jpg
 catalog: true
 usemathjax: true
 tags:
