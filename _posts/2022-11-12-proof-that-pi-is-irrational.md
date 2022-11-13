@@ -133,4 +133,8 @@ $$
 
 $$
 
-当n趋向于$\infty$时，$\frac{\pi^{n+1}a^n}{n!}$趋向于0，而$F(\pi)+F(0)$是正整数，而且（当n足够大时）任意小，矛盾。Quite "Easily" Done.
+当n趋向于$\infty$时，$\frac{\pi^{n+1}a^n}{n!}$趋向于0，而$F(\pi)+F(0)$是正整数，而且（当n足够大时）任意小，矛盾。
+
+所以$\pi$是无理数。
+
+Quite "Easily" Done.
