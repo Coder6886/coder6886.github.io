@@ -236,6 +236,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from scipy import signal
 def rgb2gray(rgb):# 顾名思义，将原图转换成灰度图像
+
     return np.dot(rgb[...,:3], [0.2989, 0.5870, 0.1140])
 img = mpimg.imread('image.png')
 gray = rgb2gray(img)
@@ -245,24 +246,33 @@ kernal1 = np.array([[-1,-1,-1],\
 kernal2 = np.array([[-1, 0, 1],\
                    [ -1, 0, 1],\
                    [ -1, 0, 1]])#这两个Kernel的直观解释一会说
+
 result1= signal.convolve2d(gray,kernal1,mode="valid")
 result2= signal.convolve2d(gray,kernal2,mode="valid")#这两行就是重工，Convolution
+
 endres = np.maximum(abs(result1)+abs(result2)-0.1,0)#第一个滤镜，0.1以下的都会被过滤掉
+
 #写文件
+
 f = open("drawing.txt",'w')
 for i in range(np.shape(endres)[0]):
     for j in range(np.shape(endres)[1]):
         if endres[i][j]>0 and endres[i][j]<=0.3:
             f.write('.')#第二个滤镜，0.3,刨去0.1后坚持不到0.3的都归位"."档
+
         elif endres[i][j] > 0.3 and endres[i][j] <= 1:
             f.write('*')#第三个滤镜，1,刨去0.1后坚持到0.3的，但是还没有努力到1的都归位"*"档
+
         elif endres[i][j] > 1:
             f.write('@')#恭喜！坚持到了最后！成为了光荣的"@"档
+
         else:
             f.write(' ')#好吧，这边都是些空格
+
     f.write('\n')
 f.close()
 #底下这两行就是在Matplotlib里画出最终结果（不带滤镜）
+
 plt.imshow(np.amax(endres)-endres, cmap=plt.get_cmap('gray'), vmin=0, vmax=np.amax(endres))
 plt.show()
 
