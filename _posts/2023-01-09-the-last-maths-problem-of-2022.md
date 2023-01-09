@@ -2,7 +2,7 @@
 layout:     post
 title:      2022年我做完的最后一道数学题
 subtitle:   这是我的一个小发现
-date:       2023-12-12
+date:       2023-01-09
 author:     coder6886
 header-img: img/post-bg-island.jpg
 catalog: true
