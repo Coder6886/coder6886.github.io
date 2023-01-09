@@ -26,7 +26,7 @@ tags:
 显而易见。（任意一个零次多项式都是平行于$x$轴的，如果有一个y值是整数，那所有的y值就都是整数了）
 
 ## 假设$P(k-1)$成立，证明$P(k)$也成立：
-**使用反证法**。若有一个$k$次多项式$f(x)$满足$f(0),f(1),f(2),...,f(k)\in\mathbb{Z}$，但不满足$P(k)$，则考虑函数$g(x)=f(x+1)-f(x)$。
+假设$P(k-1)$成立。对于任意一个满足$f(0),f(1),f(2),...,f(k)\in\mathbb{Z}$的$k$次多项式$f(x)$，考虑函数$g(x)=f(x+1)-f(x)$。
 
 这个函数是一个$k-1$次多项式（展开一下$f(x+1)-f(x)$的$k$次项，发现它被抵消了）。
 
@@ -36,4 +36,6 @@ tags:
 
 同理，$f(x)-g(x-1)=f(x-1)$。因为$\forall t\in\mathbb{Z},g(t)\in\mathbb{Z}$，所以根据$f(0)\in\mathbb{Z}$递推可得$\forall t\in\mathbb{Z}且t<0,f(t)\in\mathbb{Z}$。
 
-但由$\forall t\in\mathbb{Z}且t<0,f(t)\in\mathbb{Z}$，$\forall t\in\mathbb{Z}且t>k,f(t)\in\mathbb{Z}$，$f(0),f(1),f(2),...,f(k)\in\mathbb{Z}$得$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$，与假设矛盾。
+由题设，$\forall t\in\mathbb{Z}且0\leq t\leq k,f(t)\in\mathbb{Z}$
+
+综上所述，$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$，$P(k)$成立，命题得证。■
