@@ -16,13 +16,13 @@ tags:
 这道题是我自己编的，如果网上有过这道题并且有更好的做法，那么请谅解。
 
 # 题目：
-对于任意的满足$f(0),f(1),f(2),...,f(n)\in\mathbb{Z}$的$n$次多项式$f(x)$，求证：$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$
+对于任意的$n$次多项式$f(x)$，若满足$f(0),f(1),f(2),...,f(n)\in\mathbb{Z}$，求证：$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$
 # 解法：
 使用数学归纳法。
 
-设命题$P(k)$为"对于任意的满足$f(0),f(1),f(2),...,f(k)\in\mathbb{Z}$的$k$次多项式$f(x)$，$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$"
+设命题$P(k)$为"对于任意的$k$次多项式$f(x)$，若满足$f(0),f(1),f(2),...,f(k)\in\mathbb{Z}$，$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$"
 
-## 证明$P(0)$：
+## 证明$P(0)$成立：
 显而易见。（任意一个零次多项式都是平行于$x$轴的，如果有一个y值是整数，那所有的y值就都是整数了）
 
 ## 假设$P(k-1)$成立，证明$P(k)$也成立：
