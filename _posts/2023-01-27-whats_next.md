@@ -207,9 +207,11 @@ $$
 
 $$
 
+\begin{matrix}
 F_n=x_1F_{n-1}+x_2F_{n-2}+...+x_{k-1}F_{n-k+1},\\
 F_{n+1}=x_1F_n+x_2F_{n-1}+...+x_{k-1}F_{n-k+2}\\
 ...
+\end{matrix}
 
 $$
 
