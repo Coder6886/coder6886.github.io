@@ -248,4 +248,61 @@ $$
 代码：
 
 ```python
+import numpy as np
+def find_pattern(lst):
+    largest_size = int(np.ceil(len(lst)/2))#最大可能矩阵大小
+
+    matrixsize = -1
+    for i in range(1,largest_size+1):#遍历矩阵大小
+
+        for j in range(i-1,len(lst)-i+1):#在第一排选择矩阵左上角位置
+
+            Alst = []
+            for k in range(i):
+                Alst.append(lst[j-k:j-k+i])#制造行列式矩阵
+
+            if abs(np.linalg.det(np.array(Alst)))>0.00001:#判断行列式不为零
+
+                break
+        else:
+            matrixsize = i#这就是原文中的k
+
+            break
+    if matrixsize < 0:
+        raise ValueError("Not enough info")#没有足够信息
+        
+    A = []
+    B = []
+    B=lst[matrixsize-1:2*matrixsize-1]
+    for i in range(1,matrixsize):
+        A.append(lst[matrixsize-1-i:2*matrixsize-1-i]) #A去掉第一行
+
+    A=np.array(A)
+    A = A[:,:-1]#A去掉最后一列
+
+    B.pop()
+    B = np.array(B)
+    try:
+        X = np.linalg.solve(A.T,B)#结果
+
+    except:
+        raise ValueError("Wrong input")#额，貌似给的输入有问题
+
+    return X
+#以下为输入输出
+
+n = int(input("input the number of numbers:"))
+patternlst = []
+for i in range(n):
+    patternlst.append(int(input("input a number:")))
+X = find_pattern(patternlst)
+print('F_n =',X,'•','[F_{n-1},...,F_{n-'+str(X.size)+'}]')
+
 ```
+效果（结果是以点积方式呈现的）：
+
+![whats-next-fig1.png](/img/whats-next-fig1.png)
+
+大家可以试着验证这个平方数规律成不成立欧😊
+
+![whats-next-fig2.png](/img/whats-next-fig2.png)
