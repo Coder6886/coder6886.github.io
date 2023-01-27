@@ -306,7 +306,7 @@ def find_pattern(lst):
 n = int(input("input the number of numbers:"))
 patternlst = []
 for i in range(n):
-    patternlst.append(int(input("input a number:")))
+    patternlst.append(float(input("input a number:")))
 X = find_pattern(patternlst)
 print('F_n =',X,'•','[F_{n-1},...,F_{n-'+str(X.size)+'}]')
 
