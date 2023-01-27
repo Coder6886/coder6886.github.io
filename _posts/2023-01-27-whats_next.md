@@ -36,10 +36,12 @@ $$
 
 $$
 
+\begin{matrix}
 1\quad1\quad2\quad3\quad5\quad8\qquad\qquad\\
 \quad1\quad1\quad2\quad3\quad5\quad8\qquad\\
 \quad\quad1\quad1\quad2\quad3\quad5\quad8\\
 ...
+\end{matrix}
 
 $$
 
@@ -106,10 +108,12 @@ $$
 
 $$
 
+\begin{matrix}
 1\quad1\quad2\quad F_{n\quad}\quad5\quad8\qquad\qquad\\
 \quad1\quad1\quad F_{n-1}\quad3\quad5\quad8\qquad\\
 \quad\quad1\quad F_{n-2}\quad2\quad3\quad5\quad8\\
 ...
+\end{matrix}
 
 $$
 
@@ -132,6 +136,7 @@ $$
 上面不是选了一个$k\times k$的矩阵吗？将它的最后一列去掉:
 
 原来的矩阵：
+
 $$
 
 \left[
@@ -233,7 +238,12 @@ $$
 
 $$
 
-X=\left[\begin{matrix}1\\1\end{matrix}\right]
+X=\left[
+\begin{matrix}
+1\\
+1
+\end{matrix}
+\right]
 
 $$
 
@@ -270,7 +280,7 @@ def find_pattern(lst):
             break
     if matrixsize < 0:
         raise ValueError("Not enough info")#没有足够信息
-        
+
     A = []
     B = []
     B=lst[matrixsize-1:2*matrixsize-1]
