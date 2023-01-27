@@ -8,7 +8,7 @@ header-img: img/post-bg-island.jpg
 catalog: true
 usemathjax: true
 tags:
-    - 数学
+    [python , 数学]
 ---
 
 估计很多人上学时代都被一个问题困扰着：
