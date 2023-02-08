@@ -17,6 +17,7 @@ tags:
 
 # 问题：
 对于任意的$n$次多项式$f(x)$，若满足$f(0),f(1),f(2),...,f(n)\in\mathbb{Z}$，求证：$\forall t\in\mathbb{Z},f(t)\in\mathbb{Z}$
+
 # 解法：
 使用数学归纳法。
 
