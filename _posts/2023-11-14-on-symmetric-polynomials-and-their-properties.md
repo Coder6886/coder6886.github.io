@@ -22,7 +22,9 @@ tags:
 
 $$
 
+\begin{matrix}
 x+y+z=1\\x^2+y^2+z^2=2\\x^3+y^3+z^3=3
+\end{matrix}
 
 $$
 
@@ -42,9 +44,11 @@ $$
 
 $$
 
-6x^4-6x^3-3x^2-x=0,
-6y^4-6y^3-3y^2-y=0,
+\begin{matrix}
+6x^4-6x^3-3x^2-x=0\\
+6y^4-6y^3-3y^2-y=0\\
 6z^4-6z^3-3z^2-z=0
+\end{matrix}
 
 $$
 
@@ -75,8 +79,9 @@ $$
 已知复数$x,y,z,w$，且它们满足
 
 $$
-
+\begin{matrix}
 w+x+y+z+xyz+wyz+wxz+wxy=-1\\w^2xyz+wx^2yz+wxy^2z+wxyz^2=1\\w^2x^2yz+w^2xy^2z+w^2xyz^2+wx^2y^2z+wx^2yz^2+wxy^2z^2=2\\wx^2y^2z^2+w^2xy^2z^2+w^2x^2yz^2+w^2x^2y^2z=3
+\end{matrix}
 
 $$
 
@@ -102,7 +107,9 @@ $$
 
 $$
 
+\begin{matrix}
 s_1+s_3=-1\\s_1s_4=1\\s_2s_4=2\\s_3s_4=3
+\end{matrix}
 
 $$
 
@@ -110,7 +117,9 @@ $$
 
 $$
 
+\begin{matrix}
 s_1=-\frac{1}{4}\\s_2=-\frac{1}{2}\\s_3=-\frac{3}{4}\\s_4=-4
+\end{matrix}
 
 $$
 
@@ -138,7 +147,9 @@ $$
 
 $$
 
+\begin{matrix}
 s_1 = \sum a_i,\\s_2=\sum a_ia_j,\\....\\s_n = a_1a_2...a_n
+\end{matrix}
 
 $$
 
@@ -164,7 +175,9 @@ $$
 
 $$
 
+\begin{matrix}
 p-cs_1^{x_1-x_2}s_2^{x_2-x_3}...s_{n-1}^{x_{n-1}-x_n}s_n^{x_n}
+\end{matrix}
 
 $$
 
