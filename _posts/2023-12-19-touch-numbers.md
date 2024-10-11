@@ -70,8 +70,8 @@ tags:
 #include<bits/stdc++.h>
 
 using namespace std;
-int vis[10][10][10][10];//保存当前状态的数组
-int howmove[10][10][10][10];//保存当前状态下最优步骤的数组
+int vis[10][10][10][11];//保存当前状态的数组
+int howmove[10][10][10][11];//保存当前状态下最优步骤的数组
 const int LTL = 1,LTR = 2,RTL = 3,RTR = 4;//四种步骤的‘代号’
 const int ICANWIN = 1,ICANTIE = 2, IMUSTLOOSE = 3;//三种状态的‘代号’
 int dfs(int ml,int mr,int hl,int hr){//my left hand(ml),my right hand(mr),his left hand(hl),his right hand(hr)
@@ -122,7 +122,15 @@ int dfs(int ml,int mr,int hl,int hr){//my left hand(ml),my right hand(mr),his le
     return vis[ml][mr][hl][hr];
 }
 int main(){
-    dfs(1,1,1,1);
+    for(int i = 0; i < 10; i++){
+        for(int j = 0; j < 10; j++){
+            for(int k = 0; k < 10; k++){
+                for(int l = 0; l < 10; l++){
+                    if(!vis[i][j][k][l])dfs(i,j,k,l);
+                }
+            }
+        }
+    }
     int coml = 1,comr = 1,myl = 1,myr = 1;
     while(1){
         cout << "Take your move" << endl;
@@ -142,6 +150,7 @@ int main(){
     }
     return 0;
 }
+
 
 ```
 
