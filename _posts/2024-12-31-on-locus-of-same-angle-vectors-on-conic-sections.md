@@ -24,7 +24,7 @@ tags:
 
 ![fig2](/img/on-locus-of-same-angle-vectors-on-conic-sections-fig2.png)
 
-其实$\overrightarrow{D'D''}=\overrightarrow{DA'}+\overrightarrow{A'A''}+\overrightarrow{{A''}D''}=\overrightarrow{DA'}+\overrightarrow{{A''}D''}+\overrightarrow{A'A''}=\overrightarrow{DD'}+\overrightarrow{A'A''}$
+其实$\overrightarrow{D'D''}=\overrightarrow{DA'}+\overrightarrow{A'A''}+\overrightarrow{A''D''}=\overrightarrow{DA'}+\overrightarrow{A''D''}+\overrightarrow{A'A''}=\overrightarrow{DD'}+\overrightarrow{A'A''}$
 
 然后$\overrightarrow{A'A''}$是定向量，$\overrightarrow{DD'}$是一个绕着定点动的向量，所以向量$\overrightarrow{D'D''}$的轨迹是个圆。
 
